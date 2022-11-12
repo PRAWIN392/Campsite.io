@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>New Campsite - Campsite.io</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="header-lo">Campsite.<span>io</span></a>
+        <div class="header-nav">
+            <div class="header-left">
+                <ul class="main-nav">
+                    <li><a class="nav-item" href="index.html">Home</a></li>
+                    <li><a class="nav-item" href="#">Campsites</a></li>
+                    <li><a class="nav-item" href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a href="#" class="btn-text">Profile</a>
+                <a href="#" class="btn-text-alt">Logout</a>
+            </div>
+        </div>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </header>
+    <section class="new-camp">
+        <form action="" class="camp">
+            <h1 class="input-title">Add  a  Campsite</h1>
+            <span class="inputs">
+                    <label class="input-label">Campsite Name</label>
+                    <input class="main-input" type="text" placeholder="Kotagiri-Elk Falls">
+            </span>
+            
+            <span class="inputs">
+                    <label class="input-label">Image</label>
+                    <input class="main-input" type="text" placeholder="www.thepinoytraveler.com/2018/01/mt-ulap-diy-dayhike.jpeg">
+            </span>
+            <span class="inputs">
+                    <label class="input-label">Description</label>
+                    <textarea class="main-input" name="description" id="" rows="10" placeholder="Your description here..."></textarea>
+            </span>
+
+            <span class="inputs">
+                <label class="input-label">Review</label>
+                <textarea class="main-input" name="description" id="" rows="10" placeholder="Your reviews here..."></textarea>
+        </span>
+
+            <span class="inputs">
+                <label class="input-label">Ratings</label>
+                <input class="main-input" type="number" min="1" max="10" placeholder="Ratings out of 10">
+        </span>
+
+            <button type="submit" class="login-btn">Add Campsite</button>
+        </form>
+    </section>
+    <footer class="footer"><img src="./assets/img/Logo.svg" alt=""></footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
